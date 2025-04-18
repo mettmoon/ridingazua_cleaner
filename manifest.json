@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "ridingazua Cleaner",
+  "version": "1.0",
+  "description": "라이딩가즈아에서 이미지 캡처할 때 불필요한 요소를 제거합니다.",
+  "permissions": ["scripting", "activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
